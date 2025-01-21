@@ -1,0 +1,181 @@
+[90m2025-01-21T17:15:26.271Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestAttempted',
+  detectedFramework: 'WebdriverIO-mocha',
+  event_properties: {
+    language_framework: 'WebdriverIO_mocha',
+    referrer: 'WebdriverIO-mocha/9.5.6',
+    language: 'WebdriverIO',
+    languageVersion: 'v22.13.0',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    os: 'Darwin',
+    hostname: 'Surbhis-Air',
+    productMap: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'automate' ]
+  }
+}
+[90m2025-01-21T17:15:26.492Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in sending funnel data: ResponseError: Error response from server 401:  {"message":"Unauthorized"}
+    at fetchWrap (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:2515:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fireFunnelRequest (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:2564:20)
+    at async fireFunnelTestEvent (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:2528:5)
+    at async sendStart (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:2536:3)
+    at async BrowserstackLauncherService.onPrepare (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:3022:5)
+    at async file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/cli/build/index.js:1119:9
+    at async Promise.all (index 0)
+    at async Launcher.run (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/cli/build/index.js:2202:7)
+    at async Module.run (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/cli/build/index.js:3225:16) {
+  response: Response {
+    status: 401,
+    statusText: 'Unauthorized',
+    headers: Headers {
+      date: 'Tue, 21 Jan 2025 17:15:26 GMT',
+      'content-type': 'application/json; charset=utf-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive',
+      'cache-control': 'no-cache',
+      'set-cookie': 'tracking_id=3d30cfeb-62a8-4443-9907-10163c2daec1; domain=.browserstack.com; path=/; expires=Mon, 21 Jan 2030 17:15:26 GMT, __cf_bm=bSyjmBGxNv6GUq.JYhLnF8MF4OTGxJT9E9MvYCfVj3I-1737479726-1.0.1.1-b_t9D1kWMTXjULkfUj.1EbGX6cRTEKzues6dczZ0abgdw7CPB5nLPgzmZVlWF664BjU87Hce.TnzuhfPZ5cZVg; path=/; expires=Tue, 21-Jan-25 17:45:26 GMT; domain=.browserstack.com; HttpOnly; Secure; SameSite=None, _cfuvid=69h2j_TfwKbB.vXE5B5V65QJB6FrvU2Tz391dRoBn0s-1737479726495-0.0.1.1-604800000; path=/; domain=.browserstack.com; HttpOnly; Secure; SameSite=None',
+      status: '401 Unauthorized',
+      vary: 'Origin',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-powered-by': 'Phusion Passenger',
+      'x-request-id': '403223d7-c58a-4a58-83b3-d3b4d482a71b',
+      'x-runtime': '0.009613',
+      'x-ua-compatible': 'IE=Edge,chrome=1',
+      'cf-cache-status': 'DYNAMIC',
+      server: 'cloudflare',
+      'cf-ray': '9058f242088eb404-YYZ'
+    },
+    body: ReadableStream { locked: true, state: 'closed', supportsBYOB: true },
+    bodyUsed: true,
+    ok: false,
+    redirected: false,
+    type: 'basic',
+    url: 'https://api.browserstack.com/sdk/v1/event'
+  }
+}
+[90m2025-01-21T17:15:26.492Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2025-01-21T17:15:26.492Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2025-01-21T17:15:26.736Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"success":false,"options":null,"code":null,"errors":[{"message":"Access to BrowserStack denied due to incorrect credentials.","key":"ERROR_INVALID_CREDENTIALS"}],"error_trace_id":"42aa8710-2085-4a30-b5a8-d4e409b72bab"}
+[90m2025-01-21T17:15:26.736Z[39m [31mERROR[39m [97m@wdio/browserstack-service[39m OBSERVABILITY Build creation failed null
+[90m2025-01-21T17:15:26.738Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2025-01-21T17:15:34.410Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-01-21T17:15:34.410Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-01-21T17:15:34.406Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-01-21T17:15:34.406Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-01-21T17:15:34.427Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-01-21T17:15:34.427Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-01-21T17:15:34.428Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-01-21T17:15:34.428Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-01-21T17:15:34.434Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-01-21T17:15:34.434Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-01-21T17:15:34.438Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2025-01-21T17:15:34.438Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2025-01-21T17:15:35.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2025-01-21T17:15:35.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2025-01-21T17:15:35.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Missing Authentication Token/ Build ID
+[90m2025-01-21T17:15:35.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-46796.json
+[90m2025-01-21T17:15:35.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-46797.json
+[90m2025-01-21T17:15:35.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-46798.json
+[90m2025-01-21T17:15:35.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-46799.json
+[90m2025-01-21T17:15:35.987Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-46800.json
+[90m2025-01-21T17:15:35.988Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Reading worker file worker-data-46801.json
+[90m2025-01-21T17:15:35.989Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending SDK event with data {
+  userName: '[REDACTED]',
+  accessKey: '[REDACTED]',
+  event_type: 'SDKTestSuccessful',
+  detectedFramework: 'WebdriverIO-mocha',
+  event_properties: {
+    language_framework: 'WebdriverIO_mocha',
+    referrer: 'WebdriverIO-mocha/9.5.6',
+    language: 'WebdriverIO',
+    languageVersion: 'v22.13.0',
+    buildName: 'undefined',
+    buildIdentifier: 'undefined',
+    os: 'Darwin',
+    hostname: 'Surbhis-Air',
+    productMap: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    },
+    product: [ 'observability', 'automate' ],
+    productUsage: {
+      testObservability: {
+        enabled: true,
+        manuallySet: false,
+        buildHashedId: undefined,
+        events: {
+          buildEvents: {
+            started: { isTriggered: true, status: 'success', error: undefined },
+            finished: {
+              isTriggered: true,
+              status: 'failed',
+              error: 'Token/buildID is undefined, build creation might have failed'
+            }
+          },
+          testEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          hookEvents: {
+            started: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+            finished: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+          },
+          logEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 },
+          cbtSessionEvents: { triggeredCount: 0, sentCount: 0, failedCount: 0 }
+        }
+      }
+    }
+  }
+}
+[90m2025-01-21T17:15:36.165Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Exception in sending funnel data: ResponseError: Error response from server 401:  {"message":"Unauthorized"}
+    at fetchWrap (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:2515:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fireFunnelRequest (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:2564:20)
+    at async fireFunnelTestEvent (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:2528:5)
+    at async sendFinish (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:2539:3)
+    at async BrowserstackLauncherService.onComplete (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/browserstack-service/build/index.js:3166:5)
+    at async file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/cli/build/index.js:1119:9
+    at async Promise.all (index 0)
+    at async #runOnCompleteHook (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/cli/build/index.js:2257:7)
+    at async Launcher.run (file:///Users/surbhiarya/Documents/WebdriverIO-JS/node_modules/@wdio/cli/build/index.js:2220:18) {
+  response: Response {
+    status: 401,
+    statusText: 'Unauthorized',
+    headers: Headers {
+      date: 'Tue, 21 Jan 2025 17:15:36 GMT',
+      'content-type': 'application/json; charset=utf-8',
+      'transfer-encoding': 'chunked',
+      connection: 'keep-alive',
+      'cache-control': 'no-cache',
+      'set-cookie': 'tracking_id=d11112e8-a371-44e5-9ddf-e3e9f998c09e; domain=.browserstack.com; path=/; expires=Mon, 21 Jan 2030 17:15:36 GMT, __cf_bm=YuaKM.zz23EuVn.PE1qXXFw9gWKZd7ECBCrzsoeGM8A-1737479736-1.0.1.1-Bki_5b7fXizXKHojw0GE9o3EGjOTz6.LBAEoHe6JCS28tylgldEzsAq4GH562q.daIh7rnyfud3SXC3w0CJIdQ; path=/; expires=Tue, 21-Jan-25 17:45:36 GMT; domain=.browserstack.com; HttpOnly; Secure; SameSite=None, _cfuvid=jtryCofJxFl0oeplSs.r4CSjuh402bSzUoe0Alv7ZbM-1737479736174-0.0.1.1-604800000; path=/; domain=.browserstack.com; HttpOnly; Secure; SameSite=None',
+      status: '401 Unauthorized',
+      vary: 'Origin',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-powered-by': 'Phusion Passenger',
+      'x-request-id': '17d9046f-40fe-4bd1-9d93-b899c6f458e3',
+      'x-runtime': '0.011036',
+      'x-ua-compatible': 'IE=Edge,chrome=1',
+      'cf-cache-status': 'DYNAMIC',
+      server: 'cloudflare',
+      'cf-ray': '9058f27e6dd4ac72-YYZ'
+    },
+    body: ReadableStream { locked: true, state: 'closed', supportsBYOB: true },
+    bodyUsed: true,
+    ok: false,
+    redirected: false,
+    type: 'basic',
+    url: 'https://api.browserstack.com/sdk/v1/event'
+  }
+}
