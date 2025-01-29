@@ -44,9 +44,9 @@ Ensure your BrowserStack credentials are correctly set up in the .env file, and 
 This project integrates Allure Reporting for test results. To generate and view the Allure report:
 
 Run the following command after your test execution:
-  ## allure generate allure-results --clean -o allure-report
+  # allure generate allure-results --clean -o allure-report
 Open the report:
-  ## allure open allure-report
+  # allure open allure-report
 
 ---
 
