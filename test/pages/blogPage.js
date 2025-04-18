@@ -6,7 +6,7 @@ open() {
 }
 
 get blogPageTitle() {
-    return ('.zak-page-title');
+    return $('.zak-page-title');
 }
 
 get recentLinksList() {
