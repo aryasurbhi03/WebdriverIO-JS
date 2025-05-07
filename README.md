@@ -69,6 +69,6 @@ You can fork this repository, create a new branch, and submit a pull request for
 # 🙌 Acknowledgments
 
 I would like to thank @dilpreetj
-Completed the **'WebdriverIO - Complete Beginner Course 2024'** course on Udemy, which greatly contributed to this project.
+Completed the **'Mobile Automation with Appium 2.0 and WebdriverIO - 2024'** course on Udemy, which greatly contributed to this project.
  
 
